@@ -1,0 +1,92 @@
+.colorpad {
+    display: -moz-inline-box;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .red {
+    background-color: red;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+}
+
+.brown {
+    background-color: brown;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+
+}
+.green {
+    background-color: green;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+
+}
+.yellow {
+    background-color: yellow;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+}
+.purple {
+    background-color: purple;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+}
+.orange {
+    background-color: orange;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+}
+.darkgrey {
+    background-color: darkgrey;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+}
+.white {
+    background-color: white;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+}
+.black {
+    background-color: black;
+    height: 200;
+    width: 200;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+
+
+}
