@@ -1,5 +1,5 @@
 import React from 'react';
-//import ReactDOM from 'react-dom';
+
 import 'C:/Users/thees/OneDrive/Desktop/design-pad/src/components/designContainer.css';
 import 'C:/Users/thees/OneDrive/Desktop/design-pad/src/components/padInput.css';
 import 'C:/Users/thees/OneDrive/Desktop/design-pad/src/components/2sac4x01.jpg';
@@ -12,7 +12,7 @@ class DesignContainer extends React.Component{
         }
 
         function drag(event) {
-        event.dataTransfer.setData("text", props.target.id);
+        event.dataTransfer.setData("text", props.target.getElementById);
         }
 
         function drop(event) {
@@ -29,10 +29,34 @@ class DesignContainer extends React.Component{
         return (
             <div className="container">
                 <header>
+                    <div>
+                        <nav>  </nav>
+                    </div>
+                    <div>
                 <h1>Design Pad</h1> 
                 
                 <button classname="editbutton" onclick="{drag}">Edit</button>
-            
+                </div>
+
+<div>
+                
+     
+    </div>
+
+    <div>
+    <div classname="colorpad">
+                    <div class="red" draggable="true" onDrag="{drag}">Red</div>
+                    <div class="green" draggable="true" onDrag="{drag}">Green</div>
+                    <div class="yellow" draggable="true"  onDrag="{drag}">Yellow</div>
+                    <div class="orange" draggable="true" onDrag="{drag}">Orange</div>
+                    <div class="black" draggable="true" onDrag="{drag}">Black</div>
+                    <div class="white" draggable="true" onDrag="{drag}">White</div>
+                    <div class="purple" draggable="true" onDrag="{drag}">Purple</div>
+                    <div class="brown" draggable="true" onDrag="{drag}">Brown</div>
+                    
+                </div>
+    </div>
+    
                 </header>
                 
                 <body classname="pad">
@@ -43,17 +67,6 @@ class DesignContainer extends React.Component{
                     <div class="three" ondrop="drop(event)" ondragover="allowDrop(event)" width="500px" height="500px">              Three</div>
                     <div class="four" ondrop="drop(event)" ondragover="allowDrop(event)" width="500px" height="500px">                Four</div>
                     </div>
-                </div>
-                <div classname="colorpad">
-                    <div class="red" draggable="true" onDrag="{drag}">Red</div>
-                    <div class="green" draggable="true" onDrag="{drag}">Green</div>
-                    <div class="yellow" draggable="true"  onDrag="{drag}">Yellow</div>
-                    <div class="orange" draggable="true" onDrag="{drag}">Orange</div>
-                    <div class="black" draggable="true" onDrag="{drag}">Black</div>
-                    <div class="white" draggable="true" onDrag="{drag}">White</div>
-                    <div class="purple" draggable="true" onDrag="{drag}">Purple</div>
-                    <div class="brown" draggable="true" onDrag="{drag}">Brown</div>
-                    
                 </div>
 
                 

@@ -8,7 +8,27 @@
 
 header {
     display: center;
-    background-image: "2sac4x01.jpg";
+    background-color: grey;
+}
+
+.amazingaudioplayer-1 {
+    display: header;
+    background-color: grey;
+    margin: blue;
+    border:20px;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+}
+
+#amazingaudioplayer-audios{
+    display: inline-block;
+    background-color: grey;
+    margin: blue;
+    border:20px;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
 }
 
 .divbox {
